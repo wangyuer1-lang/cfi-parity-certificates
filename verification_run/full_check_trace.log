@@ -1,0 +1,8 @@
+All 15 equality patterns verified as identities in Q[q].
+$1111$ & $\left(q - 3\right) \left(q - 2\right) \left(q - 1\right) \left(q^{2} - 8 q + 19\right)$ \\
+$1112$ & $\left(3 - q\right) \left(q - 2\right) \left(q^{2} - 8 q + 19\right)$ \\
+$1122$ & $\left(q - 3\right) \left(q - 2\right) \left(q^{2} + 2 q - 19\right)$ \\
+$1123$ & $\left(6 - 2 q\right) \left(5 q - 19\right)$ \\
+$1212$ & $\left(q - 3\right) \left(q - 2\right) \left(q^{2} + q - 19\right)$ \\
+$1213$ & $\left(3 - q\right) \left(9 q - 38\right)$ \\
+$1234$ & $29 q - 114$ \\

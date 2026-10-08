@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this version when using the computational certificates."
+type: software
+title: "CFI parity certificates"
+authors:
+  - family-names: Wang
+    given-names: Yue
+version: 1.0.0
+date-released: 2026-10-08
+url: "https://github.com/wangyuer1-lang/cfi-parity-certificates/releases/tag/v1.0.0"
+repository-code: "https://github.com/wangyuer1-lang/cfi-parity-certificates"
+abstract: "Exact-arithmetic computational supplement to Exact CFI Parity Formulas for Spin Models."

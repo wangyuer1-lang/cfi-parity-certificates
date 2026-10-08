@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "base": "K4",
+      "computed_difference": 921665794779546558856964111328125000,
+      "formula": 921665794779546558856964111328125000
+    },
+    {
+      "base": "C3",
+      "computed_difference": 524288,
+      "formula": 524288
+    }
+  ],
+  "all_assertions_passed": true
+}

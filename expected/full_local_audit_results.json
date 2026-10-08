@@ -1,0 +1,128 @@
+{
+  "potts_full_local": [
+    {
+      "degree": 2,
+      "q": 2,
+      "complete_tensor_coordinates": 1,
+      "nonzero_leading_coordinates": 1
+    },
+    {
+      "degree": 3,
+      "q": 2,
+      "complete_tensor_coordinates": 1,
+      "nonzero_leading_coordinates": 0
+    },
+    {
+      "degree": 4,
+      "q": 2,
+      "complete_tensor_coordinates": 1,
+      "nonzero_leading_coordinates": 1
+    },
+    {
+      "degree": 5,
+      "q": 2,
+      "complete_tensor_coordinates": 1,
+      "nonzero_leading_coordinates": 0
+    },
+    {
+      "degree": 6,
+      "q": 2,
+      "complete_tensor_coordinates": 1,
+      "nonzero_leading_coordinates": 1
+    },
+    {
+      "degree": 7,
+      "q": 2,
+      "complete_tensor_coordinates": 1,
+      "nonzero_leading_coordinates": 0
+    },
+    {
+      "degree": 8,
+      "q": 2,
+      "complete_tensor_coordinates": 1,
+      "nonzero_leading_coordinates": 1
+    },
+    {
+      "degree": 2,
+      "q": 3,
+      "complete_tensor_coordinates": 9,
+      "nonzero_leading_coordinates": 9
+    },
+    {
+      "degree": 3,
+      "q": 3,
+      "complete_tensor_coordinates": 27,
+      "nonzero_leading_coordinates": 18
+    },
+    {
+      "degree": 4,
+      "q": 3,
+      "complete_tensor_coordinates": 81,
+      "nonzero_leading_coordinates": 45
+    },
+    {
+      "degree": 5,
+      "q": 3,
+      "complete_tensor_coordinates": 243,
+      "nonzero_leading_coordinates": 90
+    },
+    {
+      "degree": 6,
+      "q": 3,
+      "complete_tensor_coordinates": 729,
+      "nonzero_leading_coordinates": 729
+    },
+    {
+      "degree": 2,
+      "q": 4,
+      "complete_tensor_coordinates": 36,
+      "nonzero_leading_coordinates": 30
+    },
+    {
+      "degree": 3,
+      "q": 4,
+      "complete_tensor_coordinates": 216,
+      "nonzero_leading_coordinates": 96
+    },
+    {
+      "degree": 4,
+      "q": 4,
+      "complete_tensor_coordinates": 1296,
+      "nonzero_leading_coordinates": 696
+    }
+  ],
+  "rank_one_full_local": [
+    {
+      "degree": 2,
+      "coordinates": 9
+    },
+    {
+      "degree": 3,
+      "coordinates": 27
+    },
+    {
+      "degree": 4,
+      "coordinates": 81
+    },
+    {
+      "degree": 5,
+      "coordinates": 243
+    },
+    {
+      "degree": 6,
+      "coordinates": 729
+    }
+  ],
+  "leaf_local_constant": {
+    "pair": [
+      [
+        0,
+        1
+      ]
+    ],
+    "coefficients": [
+      3,
+      0
+    ]
+  }
+}

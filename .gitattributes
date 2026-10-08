@@ -1,0 +1,2 @@
+# Preserve the exact archive bytes covered by SHA256SUMS.txt on all systems.
+* -text whitespace=cr-at-eol

@@ -1,0 +1,58 @@
+{
+  "mode": "full",
+  "environment": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "sympy": "1.14.0",
+      "networkx": "3.6.1"
+    }
+  },
+  "manifest_verified": true,
+  "jobs": [
+    {
+      "script": "verify_certificates.py",
+      "seconds": 13.574,
+      "exit_code": 0,
+      "expected_outputs_match": true
+    },
+    {
+      "script": "verify_frontier.py",
+      "seconds": 0.685,
+      "exit_code": 0,
+      "expected_outputs_match": true
+    },
+    {
+      "script": "check_trace.py",
+      "seconds": 0.542,
+      "exit_code": 0,
+      "expected_outputs_match": true
+    },
+    {
+      "script": "verify_cubic_local.py",
+      "seconds": 0.665,
+      "exit_code": 0,
+      "expected_outputs_match": true
+    },
+    {
+      "script": "verify_extensions.py",
+      "seconds": 0.731,
+      "exit_code": 0,
+      "expected_outputs_match": true
+    },
+    {
+      "script": "verify_general_degree_local.py",
+      "seconds": 1.257,
+      "exit_code": 0,
+      "expected_outputs_match": true
+    },
+    {
+      "script": "verify_two_spin.py",
+      "seconds": 1.008,
+      "exit_code": 0,
+      "expected_outputs_match": true
+    }
+  ],
+  "all_passed": true,
+  "cross_algorithm_comparisons_passed": true
+}

@@ -1,0 +1,358 @@
+{
+  "all_q_independent": {
+    "common_flow": "(q - 3)*(q - 2)*(q - 1)*(q**6 - 18*q**5 + 141*q**4 - 620*q**3 + 1629*q**2 - 2447*q + 1649)",
+    "contracted_difference": "-(q - 3)*(q - 2)*(q - 1)",
+    "crossed_difference": "-(q - 3)*(q - 2)*(q - 1)*(2*q - 5)",
+    "z4_difference": "-(q - 4)*(q - 3)**2*(q - 2)*(q - 1)*(q + 2)"
+  },
+  "cumulant_graphs": {
+    "theta2": {
+      "polynomial": "q - 1",
+      "vertex_splittings": 1,
+      "groups": {
+        "Z2": {
+          "weighted": 1,
+          "ordinary": 1
+        },
+        "Z3": {
+          "weighted": 2,
+          "ordinary": 2
+        },
+        "Z4": {
+          "weighted": 3,
+          "ordinary": 3
+        },
+        "V4": {
+          "weighted": 3,
+          "ordinary": 3
+        }
+      }
+    },
+    "theta3": {
+      "polynomial": "(q - 2)*(q - 1)",
+      "vertex_splittings": 1,
+      "groups": {
+        "Z2": {
+          "weighted": 0,
+          "ordinary": 0
+        },
+        "Z3": {
+          "weighted": 2,
+          "ordinary": 2
+        },
+        "Z4": {
+          "weighted": 6,
+          "ordinary": 6
+        },
+        "V4": {
+          "weighted": 6,
+          "ordinary": 6
+        }
+      }
+    },
+    "theta4": {
+      "polynomial": "(q - 1)*(q**2 - 6*q + 12)",
+      "vertex_splittings": 16,
+      "groups": {
+        "Z2": {
+          "weighted": 4,
+          "ordinary": 1
+        },
+        "Z3": {
+          "weighted": 6,
+          "ordinary": 6
+        },
+        "Z4": {
+          "weighted": 12,
+          "ordinary": 21
+        },
+        "V4": {
+          "weighted": 12,
+          "ordinary": 21
+        }
+      }
+    },
+    "theta5": {
+      "polynomial": "(q - 2)*(q - 1)*(q**2 - 12*q + 72)",
+      "vertex_splittings": 121,
+      "groups": {
+        "Z2": {
+          "weighted": 0,
+          "ordinary": 0
+        },
+        "Z3": {
+          "weighted": 90,
+          "ordinary": 10
+        },
+        "Z4": {
+          "weighted": 240,
+          "ordinary": 60
+        },
+        "V4": {
+          "weighted": 240,
+          "ordinary": 60
+        }
+      }
+    },
+    "theta6": {
+      "polynomial": "(q - 1)*(q**4 - 30*q**3 + 540*q**2 - 2280*q + 2880)",
+      "vertex_splittings": 1681,
+      "groups": {
+        "Z2": {
+          "weighted": 256,
+          "ordinary": 1
+        },
+        "Z3": {
+          "weighted": 342,
+          "ordinary": 22
+        },
+        "Z4": {
+          "weighted": 2208,
+          "ordinary": 183
+        },
+        "V4": {
+          "weighted": 2208,
+          "ordinary": 183
+        }
+      }
+    },
+    "doubled_triangle": {
+      "polynomial": "(q - 1)*(q**3 - 12*q**2 + 44*q - 56)",
+      "vertex_splittings": 64,
+      "groups": {
+        "Z2": {
+          "weighted": -8,
+          "ordinary": 1
+        },
+        "Z3": {
+          "weighted": -10,
+          "ordinary": 10
+        },
+        "Z4": {
+          "weighted": -24,
+          "ordinary": 51
+        },
+        "V4": {
+          "weighted": -24,
+          "ordinary": 51
+        }
+      }
+    },
+    "K4_plus_parallel": {
+      "polynomial": "(q - 5)*(q - 4)*(q - 2)*(q - 1)",
+      "vertex_splittings": 16,
+      "groups": {
+        "Z2": {
+          "weighted": 0,
+          "ordinary": 0
+        },
+        "Z3": {
+          "weighted": 4,
+          "ordinary": 4
+        },
+        "Z4": {
+          "weighted": 0,
+          "ordinary": 30
+        },
+        "V4": {
+          "weighted": 0,
+          "ordinary": 30
+        }
+      }
+    },
+    "three_triangles_star": {
+      "polynomial": "-4*(q - 6)*(q - 1)",
+      "vertex_splittings": 41,
+      "groups": {
+        "Z2": {
+          "weighted": 16,
+          "ordinary": 1
+        },
+        "Z3": {
+          "weighted": 24,
+          "ordinary": 8
+        },
+        "Z4": {
+          "weighted": 24,
+          "ordinary": 27
+        },
+        "V4": {
+          "weighted": 24,
+          "ordinary": 27
+        }
+      }
+    },
+    "three_triangles_chain": {
+      "polynomial": "4*(q - 1)",
+      "vertex_splittings": 16,
+      "groups": {
+        "Z2": {
+          "weighted": 4,
+          "ordinary": 1
+        },
+        "Z3": {
+          "weighted": 8,
+          "ordinary": 8
+        },
+        "Z4": {
+          "weighted": 12,
+          "ordinary": 27
+        },
+        "V4": {
+          "weighted": 12,
+          "ordinary": 27
+        }
+      }
+    }
+  },
+  "flow_coefficients": [
+    {
+      "base": [
+        -9894,
+        32821,
+        -46585,
+        37970,
+        -19887,
+        7008,
+        -1670,
+        260,
+        -24,
+        1
+      ],
+      "modifications": [
+        {
+          "cycle": [
+            3,
+            9,
+            8,
+            13
+          ],
+          "contracted": [
+            2112,
+            -6620,
+            8734,
+            -6502,
+            3039,
+            -922,
+            178,
+            -20,
+            1
+          ],
+          "crossed": [
+            -666,
+            1983,
+            -2405,
+            1572,
+            -607,
+            140,
+            -18,
+            1
+          ]
+        },
+        {
+          "cycle": [
+            4,
+            11,
+            10,
+            15
+          ],
+          "contracted": [
+            2112,
+            -6620,
+            8734,
+            -6502,
+            3039,
+            -922,
+            178,
+            -20,
+            1
+          ],
+          "crossed": [
+            -666,
+            1983,
+            -2405,
+            1572,
+            -607,
+            140,
+            -18,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "base": [
+        -9894,
+        32821,
+        -46585,
+        37970,
+        -19887,
+        7008,
+        -1670,
+        260,
+        -24,
+        1
+      ],
+      "modifications": [
+        {
+          "cycle": [
+            3,
+            9,
+            8,
+            13
+          ],
+          "contracted": [
+            2106,
+            -6609,
+            8728,
+            -6501,
+            3039,
+            -922,
+            178,
+            -20,
+            1
+          ],
+          "crossed": [
+            -636,
+            1916,
+            -2353,
+            1555,
+            -605,
+            140,
+            -18,
+            1
+          ]
+        },
+        {
+          "cycle": [
+            4,
+            10,
+            11,
+            15
+          ],
+          "contracted": [
+            2112,
+            -6620,
+            8734,
+            -6502,
+            3039,
+            -922,
+            178,
+            -20,
+            1
+          ],
+          "crossed": [
+            -666,
+            1983,
+            -2405,
+            1572,
+            -607,
+            140,
+            -18,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}
